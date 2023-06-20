@@ -6,6 +6,9 @@
  * This program confirms if a number is positive, negative or zero.
  * Return 0 after successful execution
  */
+
+/* Check if a number is positive, negative or zero */
+
 int main(void)
 {
 	int n;
