@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
- * Return always 0 (success)
+ * This program confirms if a number is positive, negative or zero.
+ * Return 0 after successful execution
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
-		printf("%i is negative\n", n);	
+		printf("%i is negative\n", n);
 
 	return (0);
 }
