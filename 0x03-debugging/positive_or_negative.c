@@ -1,10 +1,5 @@
 #include "main.h"
 
-/**
- * test function that prints if integer
- * is positiveor negative
- * Return: Always 0
- */
 void positive_or_negative(int i)
 {
 	if (i > 0)
