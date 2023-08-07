@@ -287,7 +287,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		exit(98);
 	}
 	rd = read(op, header, sizeof(Elf64_Ehdr));
-	if (r == -1)
+	if (rd == -1)
 	{
 		free(header);
 		close_elf(op);
